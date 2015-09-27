@@ -1,0 +1,84 @@
+    html {
+      height: 100%;
+    }
+    body {
+       width: 800px;
+       margin: 0 auto;
+       padding-top: 25px;
+       height: 100%;
+       background-color: #9DB7BF;
+       font-family: Helvetica, sans-serif;
+    }
+
+    header {
+        background-color: #0A5954;
+        color: white;
+        text-align: center;
+        padding: 0px;
+        font-size: 30px;
+        font-family: Helvetica, sans-serif;
+        display: block;
+        width: 800px;
+        height: 350px;
+    }
+    nav {
+        font-size: 18px;
+        float: center;
+        width: 800px;
+    }
+    nav ul {
+        background-color: #9DB7BF;
+        height: 40px;
+        width: 800px;
+        padding: 0px;
+        margin: 0 0 0 0;
+        float: left;
+        border-bottom: 1px solid #cccccc;
+        list-style-type: none;
+    }
+    nav li {
+        float: left;
+        text-align: center;
+        width: 200px;
+    }
+    nav li a {
+        display: block;
+        height: 25px;
+        border-right: 1px solid #cccccc;
+        padding: 12px 18px 8px 18px;
+        vertical-align: middle;
+    }
+    a {
+        color: #0A5954;
+    }
+    section {
+        width: 73%;
+        display: inline-block;
+        float: left;
+        padding:10px;
+    }
+    aside {
+        width: 17%;
+        display: inline-block;
+        float: right;
+        vertical-align: top;
+        background-color: #eeeeee;
+        font-size: 18px;
+        padding: 8px;
+        min-height: 100%;
+    }
+    aside ul {
+        list-style-type: none;
+    }
+    footer {
+        width: 790px;
+        background-color:black;
+        color:white;
+        text-align:center;
+        clear: both;
+        padding:5px;
+        display: block;
+    }
+    .inputText {
+        width: 50px;
+    }
